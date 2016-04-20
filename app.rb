@@ -1,4 +1,6 @@
-Bundler.require(:default) 
+require 'sinatra'
+require 'mongoid'
+require 'json'
 require './peppers'
 
 # Use mongoid as ODM and setup using the mongoid.yml file
@@ -28,13 +30,6 @@ get '/api/peppers' do
   end
 end
 
-get '/api/peppers/:name' do
-  # Pass in the names param on the end of the URL and find
-  # the documents that match that name
-  pepper_data = Peppers.where(name: params['name'])
-  "#{pepper_data.to_json}"
-end
-
 post '/api/peppers' do
   # Parse the incoming data from the request object and
   # create a pepper in a peppers object
@@ -51,3 +46,11 @@ delete '/api/peppers' do
     puts "NOTHING TO DELETE"
   end
 end
+
+get '/api/peppers/:name' do
+  # Pass in the names param on the end of the URL and find
+  # the documents that match that name
+  pepper_data = Peppers.where(name: params['name'])
+  "#{pepper_data.to_json}"
+end
+
