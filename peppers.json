@@ -1,0 +1,178 @@
+[
+  {
+    "description": "The bhut jolokia, also known as bih jolokia, u-morok, ghost pepper, ghost chili pepper, red naga chili, Naga Jolokia, and ghost chili, is an interspecific hybrid chili pepper cultivated in Bangladesh and Indian states of Assam, Nagaland and Manipur. It is an interspecies hybrid of C. chinense and C. frutescens genes. In 2007, Guinness World Records certified that the ghost pepper was the world's hottest chili pepper, 900.5 times hotter than Tabasco sauce; the ghost chili is rated at more than 1 million Scoville heat units.",
+    "characteristics": {
+      "plant": [
+        "Plant height: 45–120 cm (17-47 inches)",
+        "Stem color: green",
+        "Leaf color: green",
+        "Leaf size: 10.65–14.25 cm",
+        "Fruit color at maturity: Red is the most common, with orange, yellow and chocolate as rarer varieties",
+        "Fruit shape: Subconical to conical",
+        "Fruit length: 5.95–8.54 cm"
+      ],
+      "heat": [
+        "Exceptionally hot",
+        "Up to 1,041,427 Scoville",
+        "Interspecific"
+      ]
+    },
+    "uses": {
+      "food": [
+        "Bhut jolokia is used as a food and a spice, as well as a remedy to summer heat. It is used in both fresh and dried forms, to not only heat up curries, pickles and chutneys, but also to impart two distinct flavors to them. It is popularly used in combination with pork or dried or fermented fish. The pepper's intense heat makes it a fixture in competitive chili pepper eating."
+      ],
+      "other": [
+        "In northeastern India, the peppers are smeared on fences or incorporated in smoke bombs as a safety precaution to keep wild elephants at a distance."
+      ]
+    },
+    "id": "ghost-pepper",
+    "images": [
+      {
+        "img": "img/peppers/ghost-pepper.jpg",
+        "caption": "Freshly harvested"
+      },
+      {
+        "img": "img/peppers/ghost-pepper2.jpg",
+        "caption": "Ghost pepper growing in a garden"
+      },
+      {
+        "img": "img/peppers/ghost-pepper3.jpg",
+        "caption": "Dried ghost pepper"
+      }
+    ],
+    "name": "Ghost Pepper"
+  },
+  {
+    "description": "The habanero chili comes from the Amazonas region, and from there it was spread through Mexico. One domesticated habanero, which was dated at 8,500 years old, was found at an archaeological dig in Peru. An intact fruit of a small domesticated habanero, found in pre-ceramic levels in Guitarrero Cave in the Peruvian highlands, was dated to 6500 BC.",
+    "characteristics": {
+      "plant": [
+        "Stem color: green",
+        "Leaf color: green",
+        "Leaf size: 3–8 cm by 2–4 cm",
+        "Fruit color at maturity: Orange and red",
+        "Fruit shape: conical",
+        "Fruit length: 2–6 cm (0.8–2.4 in)"
+      ],
+      "heat": [
+        "Exceptionally hot",
+        "100,000–350,000 Scoville",
+        "Capsicum annuum family"
+      ]
+    },
+    "uses": {
+      "food": [
+        "Because they are extremely hot, Habanero peppers are usually not eaten whole but are widely used in making salsas, sauces, salad dressings and as an ingredient in bottled hot sauce. Habaneros are sometimes mistaken for Scotch bonnet peppers, which they resemble and which are equally hot."
+      ],
+      "other": [
+        "Habaneros are mostly found in food."
+      ]
+    },
+    "id": "habanero",
+    "images": [
+      {
+        "img": "img/peppers/habanero.jpg",
+        "caption": "Habanero pepper"
+      },
+      {
+        "img": "img/peppers/habanero1.jpg",
+        "caption": "Habaneros in a bowl"
+      },
+      {
+        "img": "img/peppers/habanero2.jpg",
+        "caption": "Habaneros growing in the garden"
+      }
+    ],
+    "name": "Habanero"
+  },
+  {
+    "description": "Thee jalapeño is variously named in Mexico as huachinango and chile gordo. The cuaresmeño closely resembles the jalapeño. The seeds of a cuaresmeño have the heat of a jalapeño, but the flesh has a mild flavor close to a green bell pepper.",
+    "characteristics": {
+      "plant": [
+        "Plant height: 60–120 cm (24–47 in)",
+        "Stem color: green",
+        "Leaf color: green",
+        "Leaf size: 3–8 cm by 2–4 cm",
+        "Fruit color at maturity: green or red",
+        "Fruit shape: conical",
+        "Fruit length: 5-10 cm"
+      ],
+      "heat": [
+        "Medium Hot",
+        "2,500–10,000 Scoville",
+        "Capsicum annuum family"
+      ]
+    },
+    "uses": {
+      "food": [
+        "Stuffed jalapeños are hollowed out fresh jalapeños (served cooked or raw) that are stuffed, often with a mix containing seafood, meat, poultry, and/or cheese.",
+        "Pickled jalapeños, sliced or whole, are often served hot or cold on top of nachos, which are tortilla chips with melted cheese on top, a traditional Tex-Mex dish",
+        "Chipotles are smoked, ripe jalapeños.",
+        "Jalapeño jelly can be prepared using jelling methods.",
+        "Jalapeño peppers are often muddled and served in mixed drinks."
+      ],
+      "other": [
+        "Jalapeño juice is often used as a remedy for seasonal allergies and cardiovascular problems."
+      ]
+    },
+    "id": "jalapeno",
+    "images": [
+      {
+        "img": "img/peppers/jalepeno.jpg",
+        "caption": "Jalapeño pepper"
+      },
+      {
+        "img": "img/peppers/jalapeno1.jpg",
+        "caption": "Jalapeño's in a bowl"
+      },
+      {
+        "img": "img/peppers/jalapeno2.jpg",
+        "caption": "Jalapeños growing in the garden"
+      }
+    ],
+    "name": "Jalapeño"
+  },
+  {
+    "description": "The bird's eye chili plant is a perennial with small, tapering fruits, often two or three, at a node. The fruits are very pungent. The bird's eye chili is small, but is quite hot (piquant). It measures around 100,000–225,000 Scoville units, which is at the lower half of the range for the hotter habanero chili but still many times more spicy than a jalapeño.",
+    "characteristics": {
+      "plant": [
+        "Plant height: up to 2 m",
+        "Stem color: green",
+        "Leaf color: green",
+        "Leaf size: 3–8 cm by 2–4 cm",
+        "Fruit color at maturity: green, orange, or red",
+        "Fruit shape: conical",
+        "Fruit length: 2–3 cm"
+      ],
+      "heat": [
+        "Very Hot",
+        "100,000–225,000 Scoville",
+        "Capsicum annuum family"
+      ]
+    },
+    "uses": {
+      "food": [
+        "In Vietnamese cuisine, these chilis are used in soups, salads, and stir-fried dishes. They are also put in fish sauce as a condiment or eaten raw.",
+        "In Thai cuisine, these chilis are highly valued for their fruity taste and extreme spiciness. They are extensively used in many Thai dishes, such as in Thai curries and in Thai salads, green as well as the ripe red chilis; or they can just be eaten raw on the side, with for instance, khao kha mu (stewed pork trotter served with rice)."
+      ],
+      "other": [
+        "The more decorative, but slightly less pungent chili, sometimes known as 'Thai ornamental', has peppers that point upward on the plant, and range from green to yellow, orange, and then red. It is the basis for the hybrid cultivar 'Numex twilight', essentially the same, but less pungent, and starting with purple fruit, creating a rainbow effect. These peppers can grow wild in places such as Saipan and Guam."
+      ]
+    },
+    "id": "thai-chili",
+    "images": [
+      {
+        "img": "img/peppers/thai-chili1.jpg",
+        "caption": "Harvested red  thai chilis"
+      },
+      {
+        "img": "img/peppers/thai-chili2.jpg",
+        "caption": "Thai Chilis growing in a garden"
+      },
+      {
+        "img": "img/peppers/thai-chili3.jpg",
+        "caption": "Harvested red  thai chilis"
+      }
+    ],
+    "name": "Thai Chili"
+  }
+]
