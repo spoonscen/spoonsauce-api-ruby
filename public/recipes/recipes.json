@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Vincent Vega",
+    "description": "Smoked chili peppers with garlic and hint of ginger",
+    "spice": 6,
+    "image": "img/sauces/vincent-vega.jpg",
+    "id": "vincent-vega"
+  },
+  {
+    "name": "Jimmie Dimmick",
+    "description": "A citrus based sauce using green chilis",
+    "spice": 9,
+    "image": "img/test/chilis.jpg",
+    "id": "jimmie-dimmick"
+  },
+  {
+    "name": "Jules Winnfield",
+    "description": "A citrus based thai chili sauce with a tangy twist",
+    "spice": 7,
+    "image": "img/test/thai-chilis.jpg",
+    "id": "jules-winnfield"
+  },
+  {
+    "name": "Raede to Go",
+    "description": "Isreali style hotsauce loosely based on schug",
+    "spice": 8,
+    "image": "img/sauces/raede-to-go.jpg",
+    "id": "raede-to-go"
+  }
+]
+

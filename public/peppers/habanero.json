@@ -1,0 +1,42 @@
+{
+  "description": "The habanero chili comes from the Amazonas region, and from there it was spread through Mexico. One domesticated habanero, which was dated at 8,500 years old, was found at an archaeological dig in Peru. An intact fruit of a small domesticated habanero, found in pre-ceramic levels in Guitarrero Cave in the Peruvian highlands, was dated to 6500 BC.",
+  "characteristics": {
+    "plant": [
+      "Stem color: green",
+      "Leaf color: green",
+      "Leaf size: 3–8 cm by 2–4 cm",
+      "Fruit color at maturity: Orange and red",
+      "Fruit shape: conical",
+      "Fruit length: 2–6 cm (0.8–2.4 in)"
+    ],
+    "heat": [
+      "Exceptionally hot",
+      "100,000–350,000 Scoville",
+      "Capsicum annuum family"
+    ]
+  },
+  "uses": {
+    "food": [
+      "Because they are extremely hot, Habanero peppers are usually not eaten whole but are widely used in making salsas, sauces, salad dressings and as an ingredient in bottled hot sauce. Habaneros are sometimes mistaken for Scotch bonnet peppers, which they resemble and which are equally hot."
+    ],
+    "other": [
+      "Habaneros are mostly found in food."
+    ]
+  },
+  "id": "habanero",
+  "images": [
+    {
+      "img": "img/peppers/habanero.jpg",
+      "caption": "Habanero pepper"
+    },
+    {
+      "img": "img/peppers/habanero1.jpg",
+      "caption": "Habaneros in a bowl"
+    },
+    {
+      "img": "img/peppers/habanero2.jpg",
+      "caption": "Habaneros growing in the garden"
+    }
+  ],
+  "name": "Habanero"
+}

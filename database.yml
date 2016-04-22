@@ -1,6 +1,0 @@
-development:
-  clients:
-  default:
-  database: spoonsauce
-  hosts:
-    - localhost:27017

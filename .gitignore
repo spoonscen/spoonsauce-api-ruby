@@ -1,1 +1,4 @@
 Gemfile.lock
+public/bower_components
+public/node_modules
+*.sass

@@ -1,6 +1,7 @@
 require 'sinatra'
 require 'mongoid'
 require 'json'
+require 'rest_client'
 require './peppers'
 
 # Use mongoid as ODM and setup using the mongoid.yml file
@@ -11,30 +12,18 @@ end
 
 # set the homepage
 get '/' do
-  "Cory's simple API using Ruby and Mongo"
+  File.read(File.join('public', 'index.html'))
+
+
 end
 
 get '/api/peppers' do
-  # make a list of all the names of the peppers
-  pepper_name_list = %w()
-  Peppers.all.each do |pepper|
-    pepper_name_list.push(pepper.name)
-  end
-
-  # get a count for fun and display different results depending on count
-  peppers_count = Peppers.count
-  if Peppers.count > 0
-    "You have #{peppers_count} peppers in the Database here are the names: #{pepper_name_list.join(", ")}"
-  else
-    "You have no peppers in the database"
-  end
+  content_type :json
+  { data: Peppers.all }.to_json
 end
 
 post '/api/peppers' do
-  # Parse the incoming data from the request object and
-  # create a pepper in a peppers object
-  data = JSON.parse request.body.read
-  Peppers.create(data)
+  Peppers.create(JSON.parse request.body.read)
 end
 
 delete '/api/peppers' do
@@ -47,10 +36,16 @@ delete '/api/peppers' do
   end
 end
 
-get '/api/peppers/:name' do
-  # Pass in the names param on the end of the URL and find
-  # the documents that match that name
-  pepper_data = Peppers.where(name: params['name'])
-  "#{pepper_data.to_json}"
+get '/api/peppers/:id' do
+  content_type :json
+  { data: Peppers.where(id: params['id']) }.to_json
 end
 
+delete '/api/peppers/:id' do
+  Peppers.where(id: params['id']).delete
+end
+
+# not_found do
+#   content_type :json
+#   halt 404, { error: 'URL not found' }.to_json
+# end
