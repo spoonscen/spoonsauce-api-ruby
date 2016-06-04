@@ -28,9 +28,10 @@ sauceRecipeControllers.controller('CarouselCtrl', ['$scope', '$routeParams', '$h
 sauceRecipeControllers.controller('CarouselPepperCtrl', ['$scope', '$routeParams', '$http', 
   function($scope, $routeParams, $http) {
     $scope.myInterval = 5000;
-    $http.get('peppers/' + $routeParams.pepperId + '.json').success(function(data){
-      $scope.slides = data.images;
-      $scope.caption = data.caption;
+    $http.get('api/peppers/' + $routeParams.pepperId).success(function(data){
+      console.log('test, ', data.data[0])
+      $scope.slides = data.data[0].images;
+      $scope.caption = data.data[0].caption;
     });
 }]);
 
@@ -67,8 +68,9 @@ sauceRecipeControllers.controller('PepperPageCtrl', ['$scope', 'Pepper',
 //Controller for the pepper details page
 sauceRecipeControllers.controller('PepperDetailCtrl', ['$scope', '$routeParams', '$http', 
   function($scope, $routeParams, $http) {
-    $http.get('peppers/' + $routeParams.pepperId + '.json').success(function(data){
-      $scope.pepper = data;
+    $http.get('api/peppers/' + $routeParams.pepperId).success(function(data){
+      console.log(data)
+      $scope.pepper = data.data[0];
     });
 }]);
 

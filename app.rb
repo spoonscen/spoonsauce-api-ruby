@@ -37,6 +37,13 @@ delete '/api/peppers' do
 end
 
 get '/api/peppers/:id' do
+  puts Peppers.where(id: params['id'])
+  content_type :json
+  { data: Peppers.where(id: params['id']) }.to_json
+end
+
+get '/peppers/:id' do
+  puts Peppers.where(id: params['id'])
   content_type :json
   { data: Peppers.where(id: params['id']) }.to_json
 end

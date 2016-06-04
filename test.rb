@@ -11,16 +11,14 @@ class SpoonsauceTest < Test::Unit::TestCase
 
   def test_index_page_get
     get "/"
-    assert_equal "Cory's simple API using Ruby and Mongo", last_response.body
+    assert_send([last_response.body, :include?, "<!doctype html>"])  
     assert last_response.ok?
   end
 
   def test_peppers_page_get
-    delete "api/peppers"
     get "/api/peppers"
-    assert_equal "You have no peppers in the database", last_response.body
+    assert_send([last_response.body, :include?, "data"])  
     assert last_response.ok?
-    post "api/peppers"
   end
 
 end
